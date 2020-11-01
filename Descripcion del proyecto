@@ -1,0 +1,36 @@
+apirest-jwt-passport-mongo-typescript
+
+dependencias del proyecto
+
+express -       framework
+mongoose -      conexion a la base de datos
+morgan -        ver las peticiones que llegan en el log
+bcrypt -        modulo para cifrado de datos
+jsonwebtokens - intercambio de tokens f-b
+passport-jwt    autenticacion a traves de tokens
+cors - modulo para conectar dos servidores
+
+dependencias de desarrollo
+
+typescript - lenguaje
+tsc-watch   - comando para complilar al guardar
+
+
+-------
+crear carpeta src
+
+crear archivo de configuracion de typescript
+npx tsc --init    
+
+target a es6
+outDir      "./dist"    // a donde complila
+rootDit     "./src"     // desde donde lee los archivos
+
+crear archivos
+
+src/app.ts  //configura el servidore
+src/database.ts 
+src/index.ts 
+
+mkdir config controllers middlewares models routes
+
